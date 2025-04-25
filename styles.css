@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: auto; }
+    h2 { color: #2c3e50; }
+    .question { margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+    .correct { color: green; font-weight: bold; }
+    .incorrect { color: red; font-weight: bold; }
+    .icon { margin-left: 10px; font-size: 18px; }
+    .lesson { margin-top: 40px; border-top: 2px solid #ddd; padding-top: 20px; }
