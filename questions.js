@@ -356,66 +356,17 @@ const questions = [
 		answer: 0
 	},
 
-	{
-		q: "“an absolute level of income set by the government for each family size below which a family is deemed to be in poverty” is known as",
-		options: ["deprivation line", "poverty line", "deprivation index", "poverty index"],
-		answer: 1
-	},
-	{
-		q: "Absolute poverty depends",
-		options: [
-			"on income but not on access to social services",
-			"not on income but on access to social services",
-			"on income and on access to social services",
-			"neither on income nor on access to social services"
-		],
-		answer: 2
-	},
-	{
-		q: "“the equipment and structures used to produce goods and services” is the definition of",
-		options: ["tools", "machinery", "capital", "factors of production"],
-		answer: 2
-	},
-	{
-		q: "“above-equilibrium wages paid by firms to increase worker productivity” are known as",
-		options: ["compensating wage", "efficiency wage", "productivity wage", "retention wage"],
-		answer: 1
-	},
-	{
-		q: "“government policy aimed at protecting people against the risk of adverse events” is",
-		options: ["Social protection", "Social insurance", "Social security", "Socialism"],
-		answer: 1
-	},
-	{
-		q: "“a difference in wages that arises to offset the non-monetary characteristics of different jobs” is known as",
-		options: ["differentiating differential", "compensating differential", "differentiating integral", "compensating integral"],
-		answer: 1
-	},
-	{
-		q: "For a competitive and profit-maximising firm,",
-		options: [
-			"each factor's rental price < the value of the marginal product for that factor",
-			"each factor's rental price = the value of the marginal product for that factor",
-			"each factor's rental price > the value of the marginal product for that factor",
-			"each factor's rental price = the value of the average product for that factor"
-		],
-		answer: 1
-	},
-	{
-		q: "“a condition characterised by severe deprivation of basic human needs, including food, safe drinking water, sanitation facilities, health, shelter, education and information” is known as",
-		options: ["absolute poverty", "relative poverty", "median poverty", "poverty line"],
-		answer: 0
-	},
-	{
-		q: "“a condition where a household's income is lower than the median income in the particular country” is known as",
-		options: ["absolute poverty", "relative poverty", "median poverty", "poverty line"],
-		answer: 1
-	},
-	{
-		q: "“the increase in the amount of output from an additional unit of labor” is",
-		options: ["marginal product of labour", "marginal product of input", "average product of labour", "average product of input"],
-		answer: 0
-	},
+	{ q: "The ability to produce a good at a lower opportunity cost than another producer is a definition of", options: ["real advantage", "monetary advantage", "comparative advantage", "opportunity advantage"], answer: 2 },
+	{ q: "Fluctuations in economic activity, such as employment and production are referred to as", options: ["business cycles", "economic cycles", "production cycles", "market cycles"], answer: 0 },
+	{ q: "The property of society getting the most it can from its scarce resources is a definition of", options: ["efficiency", "equality", "prudence", "sustainability"], answer: 0 },
+	{ q: "In the word root for Economics, nemein stands for", options: ["together", "to keep", "house", "manage"], answer: 3 },
+	{ q: "Whatever must be given up to obtain some item is a definition of", options: ["explicit costs", "implicit costs", "opportunity costs", "phantom costs"], answer: 2 },
+	{ q: "Rational decision making compares", options: ["average benefits to average costs", "average benefits to marginal costs", "marginal benefits to average costs", "marginal benefits to marginal costs"], answer: 3 },
+	{ q: "Something that induces a person to act is a definition of", options: ["enticement", "attraction", "incentive", "occupation"], answer: 2 },
+	{ q: "Input costs that require an outlay of money are", options: ["explicit costs", "implicit costs", "opportunity costs", "phantom costs"], answer: 0 },
+	{ q: "The property of distributing economic prosperity uniformly among the members of society is a definition of", options: ["efficiency", "equality", "prudence", "sustainability"], answer: 1 },
+	{ q: "The ability of an individual to own and exercise control over scarce resources is known as", options: ["property rights", "resource rights", "individual rights", "social rights"], answer: 0 }
+,
 	{
 		q: "“an action taken by an uninformed party to induce an informed party to reveal information” is known as",
 		options: ["signalling", "screening", "informing", "heuristics"],
@@ -471,90 +422,76 @@ const questions = [
 		options: ["signalling", "screening", "informing", "heuristics"],
 		answer: 3
 	},
-	{ q: "As per Wildlife Protection Act 1972 (WPA 1972), wild life includes any animal, aquatic or land vegetation which forms part of any _____", options: ["ecosystem", "state", "country", "habitat"], answer: 0 },
+	{ q: "As per Wildlife Protection Act 1972 (WPA 1972), wild life includes any animal, aquatic or land vegetation which forms part of any _____", options: ["ecosystem", "state", "country", "habitat"], answer: 3 },
 	{ q: "The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as", options: ["umbrella species", "keystone species", "flagship species", "all of the above"], answer: 3 },
 	{ q: "Soil formation is an example of", options: ["provisioning service", "regulating service", "supporting service", "cultural service"], answer: 2 },
 	{ q: "Zoo is an example of", options: ["in-situ conservation", "ex-situ conservation", "in-situ preservation", "ex-situ preservation"], answer: 1 },
 	{ q: "The fig tree bears fruits in times when animals do not have much access to food. In this context, it would be a good example of", options: ["least concern species", "keystone species", "flagship species", "extinct species"], answer: 1 },
 	{ q: "Nutrient cycling is an example of", options: ["provisioning service", "regulating service", "supporting service", "cultural service"], answer: 2 },
 	{ q: "People come to Sessa orchid sanctuary in Arunachal Pradesh to witness orchids, which in this context would be classified as", options: ["umbrella species", "keystone species", "flagship species", "extinct species"], answer: 2 },
-	{ q: "We prefer those areas for the creation of a conservation reserve where the level of threat is", options: ["very high", "medium", "very low", "non-existent"], answer: 2 },
+	{ q: "We prefer those areas for the creation of a conservation reserve where the level of threat is", options: ["very high", "medium", "very low", "non-existent"], answer: 1 },
 	{ q: "The elephant has a home range of several square kilometres, regulates the ecosystem by its habit of destructive feeding, and people can relate to this animal which is important for conservation. Given this background, the elephant can be called as", options: ["umbrella species", "keystone species", "flagship species", "all of the above"], answer: 3 },
 	{ q: "Biological control of pest populations is an example of", options: ["provisioning service", "regulating service", "supporting service", "cultural service"], answer: 1 }
-,{ q: "The ability to produce a good at a lower opportunity cost than another producer is a definition of", options: ["real advantage", "monetary advantage", "comparative advantage", "opportunity advantage"], answer: 2 },
-{ q: "Fluctuations in economic activity, such as employment and production are referred to as", options: ["business cycles", "economic cycles", "production cycles", "market cycles"], answer: 0 },
-{ q: "The property of society getting the most it can from its scarce resources is a definition of", options: ["efficiency", "equality", "prudence", "sustainability"], answer: 0 },
-{ q: "In the word root for Economics, nemein stands for", options: ["together", "to keep", "house", "manage"], answer: 3 },
-{ q: "Whatever must be given up to obtain some item is a definition of", options: ["explicit costs", "implicit costs", "opportunity costs", "phantom costs"], answer: 2 },
-{ q: "Rational decision making compares", options: ["average benefits to average costs", "average benefits to marginal costs", "marginal benefits to average costs", "marginal benefits to marginal costs"], answer: 3 },
-{ q: "Something that induces a person to act is a definition of", options: ["enticement", "attraction", "incentive", "occupation"], answer: 2 },
-{ q: "Input costs that require an outlay of money are", options: ["explicit costs", "implicit costs", "opportunity costs", "phantom costs"], answer: 0 },
-{ q: "The property of distributing economic prosperity uniformly among the members of society is a definition of", options: ["efficiency", "equality", "prudence", "sustainability"], answer: 1 },
-{ q: "The ability of an individual to own and exercise control over scarce resources is known as", options: ["property rights", "resource rights", "individual rights", "social rights"], answer: 0 }
-
-
-
-
-]
+	]
 const form = document.getElementById("quizForm");
 
 // Generate 10 lessons with 10 questions each
 const lessons = [];
 for (let i = 0; i < 13; i++) {
-  lessons.push({
-    title: `Lesson ${i + 1}`, 
-    questions: questions.slice(i * 10, (i + 1) * 10) // Slice 10 questions for each lesson
-  });
+	lessons.push({
+		title: `Lesson ${i + 1}`,
+		questions: questions.slice(i * 10, (i + 1) * 10) // Slice 10 questions for each lesson
+	});
 }
 
 lessons.forEach((lesson, lessonIndex) => {
-  const lessonDiv = document.createElement("div");
-  lessonDiv.className = "lesson";
-  const lessonTitle = document.createElement("h2");
-  lessonTitle.textContent = lesson.title;
-  lessonDiv.appendChild(lessonTitle);
+	const lessonDiv = document.createElement("div");
+	lessonDiv.className = "lesson";
+	const lessonTitle = document.createElement("h2");
+	lessonTitle.textContent = lesson.title;
+	lessonDiv.appendChild(lessonTitle);
 
-  // Create questions for each lesson
-  lesson.questions.forEach((q, i) => {
-    const div = document.createElement("div");
-    div.className = "question";
-    div.innerHTML = `<p id="q${lessonIndex}_${i}"><strong>Q${i + 1}:</strong> ${q.q}</p>` +
-      q.options.map((opt, j) => `
+	// Create questions for each lesson
+	lesson.questions.forEach((q, i) => {
+		const div = document.createElement("div");
+		div.className = "question";
+		div.innerHTML = `<p id="q${lessonIndex}_${i}"><strong>Q${i + 1}:</strong> ${q.q}</p>` +
+			q.options.map((opt, j) => `
         <label><input type="radio" name="q${lessonIndex}_${i}" value="${j}"> ${opt}</label><br>`
-      ).join("");
-    lessonDiv.appendChild(div);
-  });
+			).join("");
+		lessonDiv.appendChild(div);
+	});
 
-  // Add submit button for this lesson
-  const submitButton = document.createElement("button");
-  submitButton.textContent = "Submit " + lesson.title;
-  submitButton.onclick = (event) => {
-    event.preventDefault(); // Prevent page refresh
-    submitQuiz(lessonIndex);
-  };
-  lessonDiv.appendChild(submitButton);
+	// Add submit button for this lesson
+	const submitButton = document.createElement("button");
+	submitButton.textContent = "Submit " + lesson.title;
+	submitButton.onclick = (event) => {
+		event.preventDefault(); // Prevent page refresh
+		submitQuiz(lessonIndex);
+	};
+	lessonDiv.appendChild(submitButton);
 
-  form.appendChild(lessonDiv);
+	form.appendChild(lessonDiv);
 });
 
 function submitQuiz(lessonIndex) {
-  const results = document.querySelectorAll(".question");
-  const lessonQuestions = lessons[lessonIndex].questions;
-  lessonQuestions.forEach((q, i) => {
-    const selected = document.querySelector(`input[name=q${lessonIndex}_${i}]:checked`);
-    const p = document.getElementById(`q${lessonIndex}_${i}`);
-    if (selected) {
-      const val = parseInt(selected.value);
-      if (val === q.answer) {
-        p.className = "correct";
-        p.innerHTML += '<span class="icon">✔️</span>';
-      } else {
-        p.className = "incorrect";
-        p.innerHTML += '<span class="icon">❌</span> (Correct: ' + q.options[q.answer] + ')';
-      }
-    } else {
-      p.className = "incorrect";
-      p.innerHTML += '<span class="icon">❌</span> (Correct: ' + q.options[q.answer] + ')';
-    }
-  });
+	const results = document.querySelectorAll(".question");
+	const lessonQuestions = lessons[lessonIndex].questions;
+	lessonQuestions.forEach((q, i) => {
+		const selected = document.querySelector(`input[name=q${lessonIndex}_${i}]:checked`);
+		const p = document.getElementById(`q${lessonIndex}_${i}`);
+		if (selected) {
+			const val = parseInt(selected.value);
+			if (val === q.answer) {
+				p.className = "correct";
+				p.innerHTML += '<span class="icon">✔️</span>';
+			} else {
+				p.className = "incorrect";
+				p.innerHTML += '<span class="icon">❌</span> (Correct: ' + q.options[q.answer] + ')';
+			}
+		} else {
+			p.className = "incorrect";
+			p.innerHTML += '<span class="icon">❌</span> (Correct: ' + q.options[q.answer] + ')';
+		}
+	});
 }
