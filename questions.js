@@ -356,17 +356,7 @@ const questions = [
 		answer: 0
 	},
 
-	{ q: "The ability to produce a good at a lower opportunity cost than another producer is a definition of", options: ["real advantage", "monetary advantage", "comparative advantage", "opportunity advantage"], answer: 2 },
-	{ q: "Fluctuations in economic activity, such as employment and production are referred to as", options: ["business cycles", "economic cycles", "production cycles", "market cycles"], answer: 0 },
-	{ q: "The property of society getting the most it can from its scarce resources is a definition of", options: ["efficiency", "equality", "prudence", "sustainability"], answer: 0 },
-	{ q: "In the word root for Economics, nemein stands for", options: ["together", "to keep", "house", "manage"], answer: 3 },
-	{ q: "Whatever must be given up to obtain some item is a definition of", options: ["explicit costs", "implicit costs", "opportunity costs", "phantom costs"], answer: 2 },
-	{ q: "Rational decision making compares", options: ["average benefits to average costs", "average benefits to marginal costs", "marginal benefits to average costs", "marginal benefits to marginal costs"], answer: 3 },
-	{ q: "Something that induces a person to act is a definition of", options: ["enticement", "attraction", "incentive", "occupation"], answer: 2 },
-	{ q: "Input costs that require an outlay of money are", options: ["explicit costs", "implicit costs", "opportunity costs", "phantom costs"], answer: 0 },
-	{ q: "The property of distributing economic prosperity uniformly among the members of society is a definition of", options: ["efficiency", "equality", "prudence", "sustainability"], answer: 1 },
-	{ q: "The ability of an individual to own and exercise control over scarce resources is known as", options: ["property rights", "resource rights", "individual rights", "social rights"], answer: 0 }
-,
+	
 	{
 		q: "“an action taken by an uninformed party to induce an informed party to reveal information” is known as",
 		options: ["signalling", "screening", "informing", "heuristics"],
@@ -432,7 +422,18 @@ const questions = [
 	{ q: "We prefer those areas for the creation of a conservation reserve where the level of threat is", options: ["very high", "medium", "very low", "non-existent"], answer: 1 },
 	{ q: "The elephant has a home range of several square kilometres, regulates the ecosystem by its habit of destructive feeding, and people can relate to this animal which is important for conservation. Given this background, the elephant can be called as", options: ["umbrella species", "keystone species", "flagship species", "all of the above"], answer: 3 },
 	{ q: "Biological control of pest populations is an example of", options: ["provisioning service", "regulating service", "supporting service", "cultural service"], answer: 1 }
-	]
+,{ q: "The ability to produce a good at a lower opportunity cost than another producer is a definition of", options: ["real advantage", "monetary advantage", "comparative advantage", "opportunity advantage"], answer: 2 },
+{ q: "Fluctuations in economic activity, such as employment and production are referred to as", options: ["business cycles", "economic cycles", "production cycles", "market cycles"], answer: 0 },
+{ q: "The property of society getting the most it can from its scarce resources is a definition of", options: ["efficiency", "equality", "prudence", "sustainability"], answer: 0 },
+{ q: "In the word root for Economics, nemein stands for", options: ["together", "to keep", "house", "manage"], answer: 3 },
+{ q: "Whatever must be given up to obtain some item is a definition of", options: ["explicit costs", "implicit costs", "opportunity costs", "phantom costs"], answer: 2 },
+{ q: "Rational decision making compares", options: ["average benefits to average costs", "average benefits to marginal costs", "marginal benefits to average costs", "marginal benefits to marginal costs"], answer: 3 },
+{ q: "Something that induces a person to act is a definition of", options: ["enticement", "attraction", "incentive", "occupation"], answer: 2 },
+{ q: "Input costs that require an outlay of money are", options: ["explicit costs", "implicit costs", "opportunity costs", "phantom costs"], answer: 0 },
+{ q: "The property of distributing economic prosperity uniformly among the members of society is a definition of", options: ["efficiency", "equality", "prudence", "sustainability"], answer: 1 },
+{ q: "The ability of an individual to own and exercise control over scarce resources is known as", options: ["property rights", "resource rights", "individual rights", "social rights"], answer: 0 }
+,	
+]
 const form = document.getElementById("quizForm");
 
 // Generate 10 lessons with 10 questions each
