@@ -35,7 +35,7 @@ const questions = [
 	{ q: "Vegetables dying under a teak plantation could be due to:", options: ["autophagy", "allelophagy", "autopathy", "allelopathy"], answer: 3 },
 	{ q: "The movement of lions across the Gir landscape is an example of:", options: ["diffusion", "secular dispersal", "jump dispersal", "drifting"], answer: 0 },
 	{ q: "'The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance.' This is the statement for:", options: ["Liebig’s law of the minimum", "Liebig’s law of the maximum", "Shelford’s law of tolerance", "Shelford’s law of intolerance"], answer: 2 },
-	{ q: "Regular, seasonal movement of animals is called:", options: ["translocation", "migration", "dispersal", "drifting"], answer: 1 },
+	{ q: "The regular, seasonal movement of animals, often along fixed routes is called :", options: ["translocation", "migration", "dispersal", "drifting"], answer: 1 },
 	{ q: "Which of these is a stochastic factor?", options: ["birth rate", "death rate", "population structure", "environmental fluctuation"], answer: 3 },
 	{ q: "Movement of individuals away from their birthplace to reproduce elsewhere is:", options: ["translocation", "migration", "dispersal", "drifting"], answer: 2 },
 	{ q: "Scarcity of food is a:", options: ["chemical factor", "demographic factor", "push factor", "pull factor"], answer: 2 },
